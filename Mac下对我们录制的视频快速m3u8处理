@@ -41,6 +41,30 @@ macserver:bin admindyn$ ls -la
 
 
 
+macserver:~ admindyn$ cd Desktop/m3u8files
+macserver:m3u8files admindyn$ mediafilesegmenter    -f  ~/Desktop/m3u8files/  ~/Desktop/arduinoDev.mp4 -t 10
+Nov 27 2017 17:59:46.377: Processing file /Users/admindyn/Desktop/arduinoDev.mp4
+Nov 27 2017 17:59:46.849: Finalized /Users/admindyn/Desktop/m3u8files/fileSequence0.ts
+Nov 27 2017 17:59:46.930: segment bitrate 16.00 Mbits/sec is new max
+Nov 27 2017 17:59:47.484: Finalized /Users/admindyn/Desktop/m3u8files/fileSequence1.ts
+Nov 27 2017 17:59:47.969: Finalized /Users/admindyn/Desktop/m3u8files/fileSequence2.ts
+Nov 27 2017 17:59:48.416: Finalized /Users/admindyn/Desktop/m3u8files/fileSequence3.ts
+Nov 27 2017 17:59:49.814: Finalized /Users/admindyn/Desktop/m3u8files/fileSequence4.ts
+Nov 27 2017 17:59:49.956: segment bitrate 19.40 Mbits/sec is new max
+Nov 27 2017 17:59:50.633: Finalized /Users/admindyn/Desktop/m3u8files/fileSequence5.ts
+Nov 27 2017 17:59:51.330: Finalized /Users/admindyn/Desktop/m3u8files/fileSequence6.ts
+Nov 27 2017 17:59:51.922: Finalized /Users/admindyn/Desktop/m3u8files/fileSequence7.ts
+Nov 27 2017 17:59:52.042: Finalized /Users/admindyn/Desktop/m3u8files/fileSequence8.ts
+Nov 27 2017 17:59:52.043: average bit rate is 16.08 Mbits/sec - max file bit rate is 19.40 Mbits/sec
+macserver:m3u8files admindyn$ 
+
+
+
+
+
+
+
+
 
 
 
