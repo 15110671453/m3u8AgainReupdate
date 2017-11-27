@@ -1,0 +1,35 @@
+Mac下对我们录制的视频快速m3u8处理1
+
+因为自己录制一段视频 为方便自己回顾
+
+便上传到自己的服务器 但是鉴于文件过大 150M
+
+制作m3u8上传到服务器 
+
+mac 有 苹果提供的专用的m3u8 tool工具 下载安装 使用  记录 日志
+
+因为之前就安装了 但是很久没用 忘记了安装目录 和命令 特写此文档记录
+
+安装地址 一
+
+https://github.com/creeveliu/HTTPLiveStreamingTools
+
+
+苹果官网地址 https://developer.apple.com/streaming/
+
+该网址 有一个downloads 可以下载到 最新的apple权威工具
+
+Last login: Mon Nov 27 16:22:59 on ttys000
+macserver:~ admindyn$ which mediafilesegmenter
+/usr/local/bin/mediafilesegmenter
+macserver:~ admindyn$ cd /usr/local/bin/
+macserver:bin admindyn$ ls -la
+
+-rwxr-xr-x    1 root      wheel   3677584  8 23 04:51 mediafilesegmenter
+-rwxr-xr-x    1 root      wheel    153440  8 23 04:53 mediastreamsegmenter
+-rwxr-xr-x    1 root      wheel   2728116  8 23 04:52 mediastreamvalidator
+-rwxr-xr-x    1 root      wheel   1205424  8 23 04:51 mediasubtitlesegmenter
+
+
+
+
