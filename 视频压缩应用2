@@ -1,0 +1,35 @@
+压缩2
+
+1 HP_3DP_Metal Jet_Announcement_english subtitles 1920x1080
+ffmpeg -i /Users/admindyn/Desktop/mv/HP_3DP_Metal\ Jet_Announcement_english\ subtitles.mp4  -b 0.8M  -vcodec mpeg4 movie11.mp4
+
+ffmpeg -i /Users/admindyn/Desktop/mv/movie11.mp4  -s 512x288  -vcodec mpeg4 movie22.mp4
+
+3.75倍后才为原始画幅
+
+
+2 HP_3DP_Metal_GKN & Volkswagen_Customer Testimonial_English Subs 1920x1080
+ffmpeg -i /Users/admindyn/Desktop/mv/HP_3DP_Metal_GKN\ \&\ Volkswagen_Customer\ Testimonial_English\ Subs.mp4 -b 1.5M  -vcodec mpeg4 movie11.mp4
+
+采样率 降低到 1.5M
+
+ffmpeg -i /Users/admindyn/Desktop/mv/movie11.mp4 -s 1280x720  -vcodec mpeg4 movie22.mp4
+
+1.5倍后才为原始画幅
+
+3 HP_3DP_Metals HIW_Edit 2 Master_SUBS 1920x1080
+
+ffmpeg -i /Users/admindyn/Desktop/mv/HP_3DP_Metal_Parmatech\,\ Wilo\,\ Primo\ \&\ OKAY_Customer\ Testimonial_English\ Subs.mp4 -b 1.5M  -vcodec mpeg4 movie11.mp4
+
+采样率 降低到 1.5M
+
+ffmpeg -i /Users/admindyn/Desktop/mv/movie11.mp4 -s 1280x720  -vcodec mpeg4 movie22.mp4
+
+1.5倍后才为原始画幅
+
+从200M 以上压缩均压缩到10M左右
+
+
+在发给同事发现 MAC 还会再压缩   压缩到6.8M  最后压缩的画幅 -s 640x368 （3倍后才为原始画幅）到6M
+
+
